@@ -20,7 +20,7 @@
 	channel.play();
 </script>
 
-<div style="position: absolute; right: 1em;">
+<div>
 	<label>
 		<h3>volume ({volume})</h3>
 		<input bind:value={volume} type="range" min="0" max="1" step="0.01">
